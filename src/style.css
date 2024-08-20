@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Inter-Font;
+    src: url(./fonts/static/Inter-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Inter-Font;
+}
+
+.close-btm {
+    display: none;
+}
+
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: none;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+li {
+    margin: 10px;
+    
+    
+}
+
+
+.flex-hero {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flex-hero img {
+    max-width: 100%;
+}
+
+.hero-sidenav {
+    margin-left: 20px;
+    background-color: var(--nVdBlue);
+    color: var(--nOwhite);
+    padding: 15px;
+    line-height: 24px;
+}
+
+.hero-sidenav p {
+    color: var(--nDgBlue);
+    padding-bottom: 10px;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-p {
+    width: 50%;
+}
+
+.flex-heading h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 14px 25px;
+    width: 200px;
+    color: var(--nOwhite);
+    background-color: var(--pRed);
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.hero-sidenav h3 {
+    color: var(--pOrange);
+    font-size: 30px;
+
+}
+
+section {
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+section img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+section .card {
+    display: flex;
+    width: 400px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.special-number {
+    color: var(--nDgBlue);
+    opacity: 0.5;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+section h4 {
+    margin: 0;
+    line-height: 30px;
+}
+
+.lock {
+    overflow: hidden;
+}
+
+.backdrop {
+    display: flex;
+   
+
+}
